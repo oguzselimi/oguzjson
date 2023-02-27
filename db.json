@@ -4,9 +4,7 @@
    { "id":2, "levelid": "b", "seviye": "A2", "title": "Aiki" },
    { "id":3, "levelid": "c", "seviye": "B1", "title": "Auc" },
    { "id":4, "levelid": "d", "seviye": "B2", "title": "Adort" }
-   { "id":5, "levelid": "e", "seviye": "A1", "title": "Abes" },
-   { "id":6, "levelid": "f", "seviye": "B3", "title": "Aalti" },
-   { "id":7, "levelid": "g", "seviye": "B4", "title": "Ayedi" }
+  
     ],
   
    "veriler" : [
