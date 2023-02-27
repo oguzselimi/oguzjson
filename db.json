@@ -1,9 +1,9 @@
 {
   "seviyeler": [
-   { "levelid": 1, "seviye": "A1" },
-   { "levelid": 2, "seviye": "A2" },
-   { "levelid": 3, "seviye": "B1" },
-   { "levelid": 4, "seviye": "B2" }
+   { "id":1, "levelid": 1, "seviye": "A1" },
+   { "id":2, "levelid": 2, "seviye": "A2" },
+   { "id":3, "levelid": 3, "seviye": "B1" },
+   { "id":4, "levelid": 4, "seviye": "B2" }
     ],
   
    "veriler" : [
