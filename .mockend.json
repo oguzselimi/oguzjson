@@ -1,9 +1,12 @@
 {
-  "Book": {
-    "_": {
-      "items": 10,
-      "data": [{ "id": 10, "author": "Shakespeare" }]
-    },
-    "title": { "loremWords": { "minLength": 5, "maxLength": 20 } }
+  "Post": {
+    "comments": {
+      "hasMany": "Comment"
+    }
+  },
+  "Comment": {
+    "post": {
+      "belongsTo": "Post"
+    }
   }
 }
