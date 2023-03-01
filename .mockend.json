@@ -1,4 +1,13 @@
 {
+  "Book": {
+    "_": {
+      "data": [{ "title": "Title 1" }, { "title": "Title 2" }]
+    }
+  }
+}
+
+
+{
   "Post": {
     "comments": {
       "hasMany": "Comment"
