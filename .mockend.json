@@ -1,23 +1,5 @@
-{
-  "Book": {
-    "_": {
-      "data": [{ "title": "Title 1" }, { "title": "Title 2" }]
+ {
+      "User": {
+        "title": { "string": {} }
+      }
     }
-  }
-},
-
-
-{
-  "Post": {
-     "_": {
-    "comments": {
-      "hasMany": "Comment"
-    }
-  },
-  "Comment": {
-     "_": {
-    "post": {
-      "belongsTo": "Post"
-    }
-  }
-}
