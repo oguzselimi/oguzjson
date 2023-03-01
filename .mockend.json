@@ -2,12 +2,6 @@
   "Book": {
     "_": {
       "data": [{ "title": "Title 1" }, { "title": "Title 2" }]
-      
-    }
-    "Level":{
-    "_": {
-      "data": [{ "title": "Title 1" }, { "title": "Title 2" }]
-}
     }
   }
 }
