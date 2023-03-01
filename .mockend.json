@@ -9,11 +9,13 @@
 
 {
   "Post": {
+     "_": {
     "comments": {
       "hasMany": "Comment"
     }
   },
   "Comment": {
+     "_": {
     "post": {
       "belongsTo": "Post"
     }
