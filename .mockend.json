@@ -2,76 +2,34 @@
     {
   "Post": {
     "_": {
-      "items": 10,
-      "data": [
-        {
-          "title": "deneme",
-          "body": "You can use your own data or have random values generated for you."
-        },
-        {
-          "title": "Second title",
-          "body": "The rest of the posts will have random values"
-        }
-      ]
-    },
-    "cover": {
-      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
-    },
-    "title": {
-      "loremWords": {
-        "minLength": 5,
-        "maxLength": 20
-      }
-    },
-    "body": {
-      "loremParagraphs": {
-        "minLength": 10,
-        "maxLength": 100
-      }
-    },
-    "category": {
-      "string": ["one", "two", "three"]
-    },
-    "isDraft": {
-      "boolean": {}
-    },
-    "views": {
-      "int": {
-        "min": 0,
-        "max": 1000
-      }
-    },
-    "createdAt": {
-      "dateTime": {
-        "min": "2010-01-01T00:00:00Z",
-        "max": "2020-12-31T23:59:59Z"
-      }
-    },
-    "comments": {
-      "hasMany": "Comment"
-    }
-  },
-  "Comment": {
-    "_": {
-      "items": 25
-    },
-    "email": {
-      "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
-    },
-    "body": {
-      "loremParagraphs": {
-        "minLength": 10,
-        "maxLength": 100
-      }
-    },
-    "createdAt": {
-      "dateTime": {
-        "min": "2010-01-01T00:00:00Z",
-        "max": "2020-12-31T23:59:59Z"
-      }
-    },
-    "post": {
-      "belongsTo": "Post"
-    }
-  }
+     
+      {
+  "seviyeler": [
+   { "id":1, "levelid": "a", "seviye": "A1", "title": "Abir" },
+   { "id":2, "levelid": "b", "seviye": "A2", "title": "Aiki" },
+   { "id":3, "levelid": "c", "seviye": "B1", "title": "Auc" },
+   { "id":4, "levelid": "d", "seviye": "B2", "title": "Adort" },
+ 
+  
+    ],
+  
+   "veriler" : [
+    { "id": 1, "level": "a1", "coverName" : "A1", "headline": "El Parque",  
+     "text": "Me llamo Pedro y hoy quiero hablar del parque "},
+      { "id": 1, "level": "a1", "coverName" : "A1", "headline": "El Mar",  
+     "text": "Me llamo Pedro y hoy quiero hablar del parque "},
+      { "id": 2, "level": "a2", "coverName" : "A2", "headline": "La escuela",  
+     "text": "Me llamo Pedro y hoy quiero hablar del parque "},
+      { "id": 2, "level": "a2", "coverName" : "A2", "headline": "El Hospital",  
+     "text": "Me llamo Pedro y hoy quiero hablar del parque "},
+        { "id":3, "level": "b1", "coverName" : "B1", "headline": "La costa",  
+     "text": "Me llamo Pedro y hoy quiero hablar del parque "},
+      { "id": 3, "level": "b1", "coverName" : "B1", "headline": "El Puerto",  
+     "text": "Me llamo Pedro y hoy quiero hablar del parque "},
+        { "id":4, "level": "b2", "coverName" : "B2", "headline": "El centro",  
+     "text": "Me llamo Pedro y hoy quiero hablar del parque "},
+      { "id": 4, "level": "b2", "coverName" : "B2", "headline": "El Bosque",  
+     "text": "Me llamo Pedro y hoy quiero hablar del parque "}
+     ]
+        
 }
