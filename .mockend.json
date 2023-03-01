@@ -2,7 +2,12 @@
   "Book": {
     "_": {
       "data": [{ "title": "Title 1" }, { "title": "Title 2" }]
-      "seviye": [{"level": "1"}, {"level": "2"}]
+      
+    }
+    "Level":{
+    "_": {
+      "data": [{ "title": "Title 1" }, { "title": "Title 2" }]
+}
     }
   }
 }
